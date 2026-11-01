@@ -1,0 +1,6 @@
+# Your writing lives here — keep it out of the code repo (back it up or version it separately).
+data/
+data-mock/
+node_modules/
+.env
+*.log

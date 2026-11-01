@@ -1,0 +1,8 @@
+---
+author: Ralph Waldo Emerson
+title: Self-Reliance
+year: 1841
+genre: non-fiction
+tags: aphorism, periodic sentence, argument, voice
+---
+There is a time in every man's education when he arrives at the conviction that envy is ignorance; that imitation is suicide; that he must take himself for better, for worse, as his portion; that though the wide universe is full of good, no kernel of nourishing corn can come to him but through his toil bestowed on that plot of ground which is given to him to till. The power which resides in him is new in nature, and none but he knows what that is which he can do, nor does he know until he has tried.

@@ -1,0 +1,18 @@
+[
+  { "id": "fifty-words", "title": "Exactly fifty", "prompt": "A complete story in exactly 50 words. Title not included.", "genre": "fiction", "check": { "exactWords": 50 } },
+  { "id": "second-person", "title": "You", "prompt": "Write a scene in the second person. 'You' is the protagonist, and the reader should feel accused.", "genre": "fiction", "check": { "maxWords": 300 } },
+  { "id": "all-dialogue", "title": "All dialogue", "prompt": "Write a scene entirely in dialogue. No tags, no action. The reader must always know who's speaking.", "genre": "fiction", "check": { "dialogueOnly": true } },
+  { "id": "no-abstract-opening", "title": "No abstractions, first paragraph", "prompt": "An essay opening whose first paragraph contains no abstract nouns: no 'freedom', 'learning', 'society', 'experience'. Only things you could photograph.", "genre": "non-fiction", "check": { "maxWords": 250 } },
+  { "id": "six-word", "title": "Six words", "prompt": "Ten six-word stories, one per line. Each must imply a before and an after.", "genre": "fiction", "check": { "lineWords": 6 } },
+  { "id": "single-sentence", "title": "One sentence", "prompt": "A scene of at least 150 words in a single sentence. Control the breath: commas, semicolons, dashes, but only one full stop.", "genre": "fiction", "check": { "minWords": 150, "maxSentences": 1 } },
+  { "id": "short-sentences", "title": "Nothing over ten", "prompt": "An argument in which no sentence exceeds ten words. It must still have a turn.", "genre": "non-fiction", "check": { "maxSentenceWords": 10 } },
+  { "id": "lipogram-e", "title": "Without E", "prompt": "Describe your morning without using the letter E. Notice what the constraint forces you to see.", "genre": "either", "check": { "forbidLetter": "e" } },
+  { "id": "letter-unsent", "title": "Unsent letter", "prompt": "A letter to someone you'll never send it to. Don't name the reason you won't send it.", "genre": "either", "check": { "maxWords": 400 } },
+  { "id": "list-story", "title": "List story", "prompt": "A story told as a list (a packing list, a to-do list, an inventory). The plot is in the gaps between items.", "genre": "fiction", "check": { "maxWords": 250 } },
+  { "id": "reverse-order", "title": "Backwards", "prompt": "Tell a short event in reverse chronological order, paragraph by paragraph, so the cause arrives last.", "genre": "fiction", "check": { "maxWords": 350 } },
+  { "id": "hundred-word-essay", "title": "Hundred-word essay", "prompt": "An essay with a claim, evidence, a concession and a turn in exactly 100 words.", "genre": "non-fiction", "check": { "exactWords": 100 } },
+  { "id": "no-is", "title": "No 'to be'", "prompt": "A paragraph explaining something you know well with no form of 'to be' (is, are, was, were, be, been, being).", "genre": "non-fiction", "check": { "forbidWords": ["is", "are", "was", "were", "be", "been", "being", "am", "isn't", "aren't", "wasn't", "weren't"] } },
+  { "id": "object-pov", "title": "Object narrator", "prompt": "A scene narrated by an object in the room that has watched these people for years.", "genre": "fiction", "check": { "maxWords": 300 } },
+  { "id": "question-only", "title": "Only questions", "prompt": "A paragraph made entirely of questions that nonetheless makes an argument.", "genre": "non-fiction", "check": { "allQuestions": true } },
+  { "id": "monosyllables", "title": "One beat", "prompt": "A paragraph about grief, or joy, in words of one syllable only.", "genre": "either", "check": { "maxWords": 200 } }
+]

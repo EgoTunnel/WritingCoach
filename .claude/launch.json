@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "writing-coach",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["server/index.js"],
+      "port": 4317
+    },
+    {
+      "name": "writing-coach-mock",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["server/index.js", "--mock"],
+      "port": 4317
+    }
+  ]
+}

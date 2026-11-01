@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Writing Coach</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%238a3b2e'/><path d='M9 23l10-14 4 3-10 14H9z' fill='%23fffdf8'/></svg>">
+  <link rel="stylesheet" href="/css/app.css">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">Writing <span>Coach</span></div>
+      <nav class="nav" id="nav">
+        <a href="#/" data-route="today">Today</a>
+        <a href="#/new" data-route="new">Draft review</a>
+        <a href="#/imitation" data-route="imitation">Imitation studio</a>
+        <a href="#/constraints" data-route="constraints">Constraint lab</a>
+        <a href="#/projects" data-route="projects">Projects</a>
+        <div class="sep"></div>
+        <a href="#/pieces" data-route="pieces">All writing</a>
+        <a href="#/reflections" data-route="reflections">Reflection log</a>
+        <a href="#/profile" data-route="profile">Writer profile <span class="badge" id="proposal-badge" hidden></span></a>
+        <a href="#/settings" data-route="settings">Settings</a>
+      </nav>
+      <div class="sidebar-foot">
+        <div class="cost" id="cost" title="Model spending this session / this month">—</div>
+      </div>
+    </aside>
+    <main id="view"></main>
+  </div>
+  <div id="toasts" aria-live="polite"></div>
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>
